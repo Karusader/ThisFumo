@@ -103,18 +103,27 @@
 </footer>
 
 <script>
+	// i HATE javscript
 window.onload = giveMeAFuckingImagePlease();
 
-						
+	//why why why why
 function giveMeAFuckingImagePlease(){
+	//Image Table List
 var images = [
 						"images/touhou-fumo-cirno.gif",
 						"images/touhou-fumo-reimu.gif",
-						"images/touhou-fumo-sakuya.gif"
+						"images/touhou-fumo-sakuya.gif",
+						"images/touhou-fumo-yuuka.gif",
+						"images/touhou-fumo-suwako.gif",
+						"images/touhou-fumo-reisen.gif",
+						"images/touhou-fumo-patchy.gif"
 						];
+	//Get a random image from array
 	var imageID = Math.floor(images.length * Math.random());
 	document.getElementById("TheFumo").src = images[imageID];
 }
+	//For use as the random seed
+let noise = "37 A3 C8 93 43 A2 D2 C0 02 EB D2 94 0C B9 D8 C0 17 A3 C0 94 43 B8 C9 8F 16 A7 C5 C7 15 AE 81 85 0D AF C4 84 43 BC C8 94 0B EB CE 8E 06 EB CD 89 0D AE 8F EA 69 86 D8 C0 05 AA C2 85 43 A2 D2 C0 00 A7 C4 81 11 A7 D8 C0 15 A2 D2 89 01 A7 C4 C0 05 B9 CE 8D 43 BF C9 85 43 AD D3 8F 0D BF 8F EA 69 9F C9 89 10 EB D6 81 10 EB D5 88 06 EB C5 81 1A EB E8 C0 10 AA C8 84 43 AC CE 8F 07 A9 D8 85 43 BF CE C0 17 A3 C4 C0 0C A7 C5 C0 0E AE 8F EA 69 89 E4 A7 2A 85 81 A1 31 88 81 D2 43 C1 AB AB 22 99 F4"
 </script>
 </body>
 </html>
